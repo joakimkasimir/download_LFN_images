@@ -17,7 +17,7 @@ source env/bin/activate
 pip install Pillow
 ```
 
-Install all needed packagesi and run the code:
+Run the code:
 ```bash
 cd download_LFN_images
 ./generateImage.sh https://localfoodnodes.org/node/kavlinge-matnod?date=2018-10-24
@@ -27,7 +27,6 @@ Inactivate the virtualenv with command:
 deactivate
 ```
 ## Check in the code ##
-Remove all security and credentials information from config.yaml
 Before you check in your code run:
 ```bash
 pip freeze > requirements.txt
